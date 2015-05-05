@@ -1,20 +1,116 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpace.master.cs" Inherits="web.masterpace" %>
 
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Creativity by Hand</title>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div>
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a class="navbar-brand" href="index.html">Creativity by Hand</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Forside</a></li>
+                            <li><a href="#">Topdata</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Computere <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Workstation</a></li>
+                                    <li><a href="#">Silent Game</a></li>
+                                    <li><a href="#">Xtreme Game</a></li>
+                                    <li><a href="#">Power Game</a></li>
+                                    <li><a href="#">Ultimate Game</a></li>
+                                    <li><a href="#">PC-Sæt</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hardware <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Bundkort</a></li>
+                                    <li><a href="#">CD-Drev</a></li>
+                                    <li><a href="#">Grafikkort</a></li>
+                                    <li><a href="#">Harddisk</a></li>
+                                    <li><a href="#">Kabinetter</a></li>
+                                    <li><a href="#">Kabler</a></li>
+                                    <li><a href="#">Netværk</a></li>
+                                    <li><a href="#">Processorer</a></li>
+                                    <li><a href="#">Hukommelse(RAM)</a></li>
+                                    <li><a href="#">Software</a></li>
+                                    <li><a href="#">Strømforsyninger</a></li>
+                                    <li><a href="#">USB/Firewire</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tilbehør <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Mus</a></li>
+                                    <li><a href="#">Skærm</a></li>
+                                    <li><a href="#">Tastatur</a></li>
+                                    <li><a href="#">Spil</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- jQuery -->
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
     </form>
 </body>
 </html>
