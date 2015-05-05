@@ -30,5 +30,5 @@
     <asp:Image ID="uplodeimg" runat="server" />
 
     <%--Bekræftilistige af krav--%>
-    <h4><asp:CheckBox ID="CheckBox1" runat="server"  />Her bekræfter du at du overgiver din sjæl og vores krav</h4>
+    <h4><asp:CheckBox ID="CheckBox1" runat="server"/>Her bekræfter du at du overgiver din sjæl og vores krav</h4>
 </asp:Content>
