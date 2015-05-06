@@ -1,5 +1,17 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpace.master.cs"%>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpace.Master.cs"%>
+<script runat="server">
 
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if(Session["user_id"] != null) {
+            Javascript_code.Text = "<script type='text/javascript'>document.querySelector('#loginLink').style.display = 'none';<\\/script>";
+        }
+        else
+        {
+            Javascript_code.Text = "<script type='text/javascript'>document.querySelector('#logoutLink').style.display = 'none';<\\/script>";
+        }
+    }
+</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +66,8 @@
                             </li>
                             <li><a href="nytprojekt.aspx">Create New</a></li>
                             <li><a href="about.aspx">About</a></li>
-                            <li><a href="Logind.aspx">Login</a></li>
+                            <li id="loginLink"><a href="Logind.aspx">Login</a></li>
+                            <li id="logoutLink"><a href="Default.aspx?logout=true">Logout</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -85,6 +98,7 @@
                 interval: 5000 //changes the speed
             })
         </script>
+            <asp:Label ID="Javascript_code" runat="server"></asp:Label>
     </form>
 </body>
 </html>
