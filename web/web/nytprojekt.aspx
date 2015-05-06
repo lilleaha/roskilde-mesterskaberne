@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <!-- Tilføj form -->
-
+    <div class="container">
     <table>
         <tr>
             <td>Projektnavn:</td>
@@ -25,4 +25,5 @@
             <td><asp:Button ID="ButtonSubmit" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
         </tr>
     </table>
+        </div>
 </asp:Content>
