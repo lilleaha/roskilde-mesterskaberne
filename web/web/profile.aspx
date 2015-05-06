@@ -11,22 +11,17 @@
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-check"></i>You Profile</h4>
                     </div>
-                    <div class="panel-body">
-    <%-- Emailen er den værdi der blive brugt til at finde den rigtige konto --%>
-                    <h1></h1>
-                    <h4>Username/Email</h4>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <div class="panel-body"
+                       
+                        <%-- profilbillede --%>
+                    <asp:Image ID="Image2" runat="server" />
 
-    <%-- Passwode er til at bekræft at du er den valgte bruger med emailen --%>
-                    <h4>Password</h4>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <br/>
+                   <%-- navn af profil ejern --%>
+                        <h2> fulde navn </h2> 
 
-   <%--En knap der udføre handlingen --%>
-                    <asp:Button ID="Button1" runat="server" Text="Login" class="btn btn-default"/>
+                        <%-- brugernavn --%>
+                        <h2>Username</h2>
 
-    <%-- Et link til opradelse siden --%>
-                    <a href="Opradelse.aspx" class="btn btn-default"> Sign Up</a>
                     </div>
                 </div>
             </div>
