@@ -9,7 +9,7 @@
 
 
 
-public partial class opradelse {
+public partial class  {
     
     /// <summary>
     /// TextBox1 control.
