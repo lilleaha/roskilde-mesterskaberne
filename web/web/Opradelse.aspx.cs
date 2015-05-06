@@ -14,7 +14,7 @@ public partial class opradelse : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        LabelFail.Visible = false;
     }
     protected void ButtonReg_Click(object sender, EventArgs e)
     {
