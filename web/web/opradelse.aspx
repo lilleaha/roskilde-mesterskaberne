@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpace.Master" AutoEventWireup="true" CodeBehind="Opradelse.aspx.cs" Inherits="web.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" ClientIDMode="Static" MasterPageFile="~/masterpace.Master" AutoEventWireup="true" CodeBehind="Opradelse.aspx.cs" Inherits="web.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,7 +17,7 @@
     <%-- Din kodeord/passwood til at komme ind som bruger  --%>
     <h4>Passwood</h4>
     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-
+    <a href="Opradelse.aspx">Opradelse.aspx</a>
     <%--Gentag din kodeord/passwood til at få det rigtig kodeord/passwood til databasen--%>
     <h4>Gentag Passwood</h4>
     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
