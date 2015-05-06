@@ -7,22 +7,23 @@
 
     <!-- Tilføj form -->
     <div class="container">
-    <table>
+    <h1 class="col-xs-12" style="text-align:center;margin-bottom:10px;">Tilføj projekt</h1>
+        <table>
         <tr>
-            <td>Projektnavn:</td>
-            <td><asp:TextBox ID="TextBoxTitel" runat="server"></asp:TextBox></td>
+            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Projektnavn:</td>
+            <td class="col-xs-6"><asp:TextBox ID="TextBoxTitel" runat="server"></asp:TextBox></td>
         </tr>
         <tr>
-            <td>Hovedbillede:</td>
+            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Hovedbillede:</td>
             <td><asp:FileUpload ID="FileUploadImg" runat="server" /></td>
         </tr>
         <tr>
-            <td>Indhold:</td>
-            <td><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
+            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Indhold:</td>
+            <td class="col-xs-6"><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
         </tr>
         <tr>
-            <td></td>
-            <td><asp:Button ID="ButtonSubmit" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
+            <td class="col-xs-6" style="text-align:right; padding-right:5px;"></td>
+            <td class="col-xs-6"><asp:Button ID="ButtonSubmit" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
         </tr>
     </table>
         </div>
