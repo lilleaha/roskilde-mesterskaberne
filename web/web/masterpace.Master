@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpace.master.cs" Inherits="web.masterpace" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpace.master.cs"%>
 
 <!DOCTYPE html>
 <html lang="en">
