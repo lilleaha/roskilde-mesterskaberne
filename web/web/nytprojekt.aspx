@@ -10,18 +10,18 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Tilføj projekt</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>Add project</h4>
                     </div>
                     <div class="panel-body">
                          <table>
         <tr>
-            <td class="col-xs-6">   <asp:TextBox ID="TextBoxTitel" runat="server" placeholder="Projektnavn"></asp:TextBox></td>
+            <td class="col-xs-6">   <asp:TextBox ID="TextBoxTitel" runat="server" placeholder="Project title"></asp:TextBox></td>
         </tr>
         <tr>
-            <td class="col-xs-6"><h4>Hovedbillede</h4><asp:FileUpload ID="FileUploadImg" runat="server" /></td></> 
+            <td class="col-xs-6"><h4>Main image</h4><asp:FileUpload ID="FileUploadImg" runat="server" /></td></> 
         </tr>
         <tr>
-            <td class="col-xs-6" =><h4>Indhold</h4><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
+            <td class="col-xs-6" =><h4>Contents</h4><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
         </tr>
         <tr>
             <td class="col-xs-6"><asp:Button ID="Button1" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
