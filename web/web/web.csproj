@@ -301,9 +301,9 @@
     <Content Include="obj\Debug\web.dll" />
     <Content Include="obj\Debug\web.pdb" />
     <Content Include="profile.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
-    <Content Include="default.aspx" />
     <Content Include="Opradelse.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -350,13 +350,6 @@
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Opradelse.aspx.cs">
       <DependentUpon>Opradelse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

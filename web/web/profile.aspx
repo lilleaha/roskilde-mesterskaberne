@@ -9,10 +9,11 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>login system</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>You Profile</h4>
                     </div>
                     <div class="panel-body">
     <%-- Emailen er den værdi der blive brugt til at finde den rigtige konto --%>
+                    <h1></h1>
                     <h4>Username/Email</h4>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 
