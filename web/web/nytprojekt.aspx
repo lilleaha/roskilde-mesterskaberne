@@ -15,46 +15,20 @@
                     <div class="panel-body">
                          <table>
         <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Projektnavn:</td>
-            <td class="col-xs-6"><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
+            <td class="col-xs-6">   <asp:TextBox ID="TextBoxTitel" runat="server" placeholder="Projektnavn"></asp:TextBox></td>
         </tr>
         <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Hovedbillede:</td>
-            <td><asp:FileUpload ID="FileUpload1" runat="server" /></td>
+            <td class="col-xs-6"><h4>Hovedbillede</h4><asp:FileUpload ID="FileUploadImg" runat="server" /></td></> 
         </tr>
         <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Indhold:</td>
-            <td class="col-xs-6"><CKEditor:CKEditorcontrol ID="CKEditorcontrol1" runat="server"></CKEditor:CKEditorcontrol></td>
+            <td class="col-xs-6" =><h4>Indhold</h4><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
         </tr>
         <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;"></td>
             <td class="col-xs-6"><asp:Button ID="Button1" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
         </tr>
     </table>
                     </div>
                 </div>
             </div>
-
-    <!-- Tilføj form -->
-    <div class="container">
-    <h1 class="col-xs-12" >Tilføj projekt</h1>
-        <table>
-        <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Projektnavn:</td>
-            <td class="col-xs-6"><asp:TextBox ID="TextBoxTitel" runat="server"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Hovedbillede:</td>
-            <td><asp:FileUpload ID="FileUploadImg" runat="server" /></td>
-        </tr>
-        <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;">Indhold:</td>
-            <td class="col-xs-6"><CKEditor:CKEditorcontrol ID="TextBoxIndhold" runat="server"></CKEditor:CKEditorcontrol></td>
-        </tr>
-        <tr>
-            <td class="col-xs-6" style="text-align:right; padding-right:5px;"></td>
-            <td class="col-xs-6"><asp:Button ID="ButtonSubmit" runat="server" Text="Send" OnClick="ButtonSubmit_Click"/></td>
-        </tr>
-    </table>
         </div>
 </asp:Content>
