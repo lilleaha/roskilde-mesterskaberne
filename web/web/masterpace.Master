@@ -48,17 +48,12 @@
                                     <li><a href="#">Newest Projects</a></li>
                                     <li><a href="#">Most Viewed</a></li>
                                     <li><a href="#">Best Rated</a></li>
-                                    <li><a href="#">Most Commented</a></li>
+                                    <%--<li><a href="#">Most Commented</a></li>--%>
                                     <li><a href="#">Favorites</a></li>
                                 </ul>
                             </li>
-                            <li><a href="opgradelse.aspx">Profile</a></li>
-                            <li><a href="#">About</a></li>
-                            <li class="dropdown">
                             <li><a href="nytprojekt.aspx">Create New</a></li>
-
-                            </li>
-                            
+                            <li><a href="#">About</a></li>
                             <li><a href="Logind.aspx">Login</a></li>
                         </ul>
                     </div>

@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" ClientIDMode="Static" MasterPageFile="~/masterpace.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" %>
+﻿<%@ Page Title="" Language="C#" ClientIDMode="Static" MasterPageFile="~/masterpace.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="web.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -16,7 +16,7 @@
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image: url('http://placehold.it/1900x1080&text=Slide One');">
-                    <img src="image/masterslider/box.jpg" class="img img-responsive" />
+                    <img src="image/box.jpg" class="img img-responsive" />
                 </div>
                 <div class="carousel-caption">
                     <h2></h2>
@@ -24,18 +24,14 @@
             </div>
             <div class="item">
                 <div class="fill" style="background-image: url('http://placehold.it/1900x1080&text=Slide Two');">
-
-                    <img src="image/masterslider/house.jpg" class="img img-responsive" />
-                </div>
+                    <img src="image/house.jpg" class="img img-responsive" /></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image: url('http://placehold.it/1900x1080&text=Slide Three');">
-
-                    <img src="image/masterslider/bottle.jpg" class="img img-responsive" />
-                </div>
+                    <img src="image/bottle.jpg" class="img img-responsive" /></div>
                 <div class="carousel-caption">
                     <h2></h2>
                 </div>
@@ -59,12 +55,7 @@
                         <h4><i class="fa fa-fw fa-check"></i>Creativity</h4>
                     </div>
                     <div class="panel-body">
-                        <p>
-                            Creativity is based on the mind of the brain itself. Using materials which is taken for granted, and using those materials to create something creative and useful.
-                            <br />
-                            <br />
-                            An example for this could be the boxes made into drawers, which is a cheap and free method to create something useful. Test your limits and use  your creativity.
-                        </p>
+                        <p>Creativity is based on the mind of the brain itself. Using materials which is taken for granted, and using those materials to create something creative and useful. <br /> <br /> An example for this could be the boxes made into drawers, which is a cheap and free method to create something useful. </p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -75,12 +66,7 @@
                         <h4><i class="fa fa-fw fa-gift"></i>Beauty Designs</h4>
                     </div>
                     <div class="panel-body">
-                        <p>
-                            Beauty Designs is based on thoughts and feelings. Have you ever had this feeling of having a vision of something beautyful, and imagine how it is possible to create something beautiful?
-                            <br />
-                            <br />
-                            Everyone is able to create beautiful creations, it's just about the willing of doing so, to make something you think is beautiful. It's a cheap method to create beauty.
-                        </p>
+                        <p>Beauty Designs is based on thoughts and feelings. Have you ever had this feeling of having a vision of something beautyful, and imagine how it is possible to create something beautiful? <br/><br /> Everyone is able to create beautiful creations, it's just about the willing of doing so, make something you think is beautiful. </p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -91,10 +77,7 @@
                         <h4><i class="fa fa-fw fa-compass"></i>Upcycling</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Upcycling is the process of converting waste materials or useless products into new materials or products of better quality or for better environmental value.
-                            <br />
-                            <br />
-                            Upcycling is the opposite of downcycling, which is the other half of the recycling process. Downcycling involves converting materials and products into new materials of lesser quality. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
                         <a href="#" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
@@ -106,36 +89,24 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Previews</h2>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/barrel.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/cases.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/dress.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/hardware.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/hooks.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img src="image/previews/house2.jpg" class="img img-responsive img-portfolio img-hover" />
-                </a>
-            </div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
+            <div class="col-md-4 col-sm-6"><a href="portfolio-item.html">
+                <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+            </a></div>
         </div>
         <!-- /.row -->
         <!-- Features Section -->
@@ -154,16 +125,12 @@
                     <li>reduction in greenhouse gas emissions</li>
                     <li>conservation of global resources</li>
                 </ul>
-                <p>
-                    The environmental benefits of Upcycling are mammoth, aside from minimising the volume of discarded materials and waste being sent to landfill each year, it also reduces the need for production using new or raw materials which means a reduction in air pollution, water pollution, greenhouse gas emissions and often a conservation of global resources.
-                    <br />
-                    <br />
-                    While the environmental benefits are easily identified the social and personal benefits for both the designer/producer and the consumer are enormous also. This new production and material sourcing method has formed an entirely new industry both in small rural village communities as well as boutique niche businesses around the western world.
-                </p>
+                <p>The environmental benefits of Upcycling are mammoth, aside from minimising the volume of discarded materials and waste being sent to landfill each year, it also reduces the need for production using new or raw materials which means a reduction in air pollution, water pollution, greenhouse gas emissions and often a conservation of global resources. <br /><br /> While the environmental benefits are easily identified the social and personal benefits for both the designer/producer and the consumer are enormous also. This new production and material sourcing method has formed an entirely new industry both in small rural village communities as well as boutique niche businesses around the western world.</p>
             </div>
             <div class="col-md-6">
-                <<img src="image/upcycling.png" class="img img-responsive" />>
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
             </div>
+        </div>
         </div>
         <!-- /.row -->
 
@@ -179,5 +146,4 @@
             </div>
         </div>
         <hr>
-        </div>
 </asp:Content>
