@@ -56,7 +56,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Creativity</h4>
+                        <h4><i class="glyphicon glyphicon-fire"></i>Creativity</h4>
                     </div>
                     <div class="panel-body">
                         <p>
@@ -65,14 +65,14 @@
                             <br />
                             An example for this could be the boxes made into drawers, which is a cheap and free method to create something useful. Test your limits and use  your creativity.
                         </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.aspx" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i>Beauty Designs</h4>
+                        <h4><i class="glyphicon glyphicon-grain"></i>Beauty Designs</h4>
                     </div>
                     <div class="panel-body">
                         <p>
@@ -81,21 +81,21 @@
                             <br />
                             Everyone is able to create beautiful creations, it's just about the willing of doing so, to make something you think is beautiful. It's a cheap method to create beauty.
                         </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.aspx" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i>Upcycling</h4>
+                        <h4><i class="glyphicon glyphicon-sort"></i>Upcycling</h4>
                     </div>
                     <div class="panel-body">
                         <p>Upcycling is the process of converting waste materials or useless products into new materials or products of better quality or for better environmental value.
                             <br />
                             <br />
                             Upcycling is the opposite of downcycling, which is the other half of the recycling process. Downcycling involves converting materials and products into new materials of lesser quality. </p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <a href="about.aspx" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
             </div>
