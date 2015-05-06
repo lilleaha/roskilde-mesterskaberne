@@ -42,45 +42,28 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="Logind.aspx">Login</a></li>
-                            <li><a href="opradelse.aspx">Profile</a></li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="opgradelse.aspx">Profile</a></li>
+                            <li><a href="#">About</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Computere <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Workstation</a></li>
-                                    <li><a href="#">Silent Game</a></li>
-                                    <li><a href="#">Xtreme Game</a></li>
-                                    <li><a href="#">Power Game</a></li>
-                                    <li><a href="#">Ultimate Game</a></li>
-                                    <li><a href="#">PC-Sæt</a></li>
+                                    <li><a href="#">Create New</a></li>
+                                    <li><a href="#">Edit Project</a></li>
+    
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hardware <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Top Projects<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Bundkort</a></li>
-                                    <li><a href="#">CD-Drev</a></li>
-                                    <li><a href="#">Grafikkort</a></li>
-                                    <li><a href="#">Harddisk</a></li>
-                                    <li><a href="#">Kabinetter</a></li>
-                                    <li><a href="#">Kabler</a></li>
-                                    <li><a href="#">Netværk</a></li>
-                                    <li><a href="#">Processorer</a></li>
-                                    <li><a href="#">Hukommelse(RAM)</a></li>
-                                    <li><a href="#">Software</a></li>
-                                    <li><a href="#">Strømforsyninger</a></li>
-                                    <li><a href="#">USB/Firewire</a></li>
+                                    <li><a href="#">Newest Projects</a></li>
+                                    <li><a href="#">Most Viewed</a></li>
+                                    <li><a href="#">Best Rated</a></li>
+                                    <li><a href="#">Most Commented</a></li>
+                                    <li><a href="#">Favorites</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Top <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Mus</a></li>
-                                    <li><a href="#">Skærm</a></li>
-                                    <li><a href="#">Tastatur</a></li>
-                                    <li><a href="#">Spil</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="Logind.aspx">Login</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -94,7 +77,7 @@
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Copyright &copy; Your Website 2014</p>
+                        <p></p>
                     </div>
                 </div>
             </footer>
